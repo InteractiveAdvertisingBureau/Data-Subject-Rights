@@ -603,7 +603,7 @@ Email support@iabtechlab.com to submit comments.</h3>
       <tr>
         <td>vendorScript</td>
         <td>string</td>
-        <td>Optional field for vendors to publish a HTML code (e.g. a &lt;scrip&gt;) if this is needed to gather an identifier for a deletion request.</td>
+        <td>Optional field for vendors to publish a HTML code (e.g. a &lt;script&gt;) if this is needed to gather an identifier for a deletion request.</td>
         <td>Optional</td>
       </tr>
     </tbody>
@@ -620,8 +620,7 @@ https://www.publisher1.com/dsrdelete.json
         { "id": 1, "type": "email", "format": "sha256" },
         { "id": 2, "type": "idfa", "format": "hash" }
     ],
-    "keys": {
-        "keys": [
+    "publicKey": [
             {
                 "kty": "EC",
                 "crv": "P-256",
@@ -629,8 +628,8 @@ https://www.publisher1.com/dsrdelete.json
                 "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0",
                 "kid": "Public key used in JWS spec Appendix A.3 example"
             }
-        ]
-    },
+    ],
+    "vendorScriptRequirement": true,
     "vendorScript": "<script>.....</script>"
 }
 ```
