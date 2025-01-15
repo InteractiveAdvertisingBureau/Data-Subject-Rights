@@ -102,8 +102,8 @@
 <ol>
   <li><span style="color:rgb(255, 0, 0);">
     <strong>*Data Subject</strong>
-    requests a data deletion from a 1st Party*</li>
-  <ol><span style="color:rgb(255, 0, 0);">
+    requests a data deletion from a 1st Party*</span></li>
+  <ol>
     <li>1st Party validates the request.</li>
     <li>1st Party determines what identifiers are subject to the request.</li>
     <li>1st Party determines partners that data has been shared with which the request must be communicated to.</li>
@@ -130,16 +130,16 @@
   <li>
     <strong>Requester</strong>
     verifies the signatures of the acJWT and the embedded rqJWT returned by the Recipient using a public key published on the Recipient’s domain and their own public key.</li>
-  <span style="color:rgb(255, 0, 0);"><li>
+  <li><span style="color:rgb(255, 0, 0);">
     <strong>*Requester</strong>
-    logs the Recipient Acknowledgement acJWT.*</li>
+    logs the Recipient Acknowledgement acJWT.*</span></li>
   <li>
     <span style="color:rgb(255, 0, 0);"><strong>*Recipient</strong>
-    logs the request rqJWT.*</li>
+    logs the request rqJWT.*</span></li>
   <li>
     <span style="color:rgb(255, 0, 0);"><strong>*Recipient</strong>
-    forwards the request as necessary by:</li>
-  <span style="color:rgb(255, 0, 0);"><ol>
+    forwards the request as necessary by:</span></li>
+  <ol>
     <li>Determining what partners the request must be forwarded to.</li>
     <li>Accessing the dsrdelete.json resource for each partner to determine how IDs must be formatted for them.&nbsp;</li>
     <li>Generating rqJWTs to be sent to partners using the original identifier idJWT they received and by following steps 2 through 8 above.&nbsp;&nbsp;</li>
@@ -372,7 +372,7 @@
         <td>string</td>
         <td>The "<a target="_blank" href="https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1">
             <span style="color:rgb(17, 85, 204);">iss</span>
-          </a>" (issuer) claim identifies the principal that issued the JWT. It represents the eTLD+1 of the recipient, which can be used to locate their dsrdelete.json file.</span>
+          </a>" (issuer) claim identifies the principal that issued the JWT. It represents the eTLD+1 of the recipient, which can be used to locate their dsrdelete.json file.
         </td>
         <td>required</td>
       </tr>
@@ -448,7 +448,7 @@
         "identifierFormat": "sha256"
     } 
     "iat": 1693459424,
-    "optionalParameters": {optional_paramters_information}
+    "optionalParameters": {optional_parameters_information}
 }
 ```
 
