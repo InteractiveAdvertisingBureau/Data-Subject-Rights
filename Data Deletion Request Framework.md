@@ -446,7 +446,7 @@
         "identifierValue": "28f6dc889e...fe167",
         "identifierType": "email",
         "identifierFormat": "sha256"
-    } 
+    },
     "iat": 1693459424,
     "optionalParameters": {optional_paramters_information}
 }
