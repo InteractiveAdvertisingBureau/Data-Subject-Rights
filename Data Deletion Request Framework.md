@@ -1,7 +1,26 @@
 
 <h1>Data Deletion Request Framework</h1>
 
+<h2 id="about-this-document">About this document</h2>
+<p>The Data Deletion Request Framework provides a standard approach for handling data deletion requests within the adtech ecosystem. This framework establishes a standardized mechanism for transmitting data deletion requests signals throughout the digital advertising chain. It includes provisions for recipients to indicate necessary requirements for executing deletion requests, validate request origins, ensure requester authenticity, confirm receipt, and employ cryptographic signatures for request and receipt authentication.</p>
 
+<h3>Version History&nbsp;</h3>
+<div>
+<table>
+<tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td><strong>Version</strong></td>
+<td><strong>Comments</strong></td>
+</tr>
+<tr>
+<td>May 2024</td>
+<td>1.0</td>
+<td>Version 1.0 released</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 <h2>Introduction</h2>
 <p>The ‘Right to Delete’ is a Data Subject Right (DSR) included as part of the GDPR, US state privacy laws, and additional privacy legislation such as Quebec Law 25.&nbsp;</p>
