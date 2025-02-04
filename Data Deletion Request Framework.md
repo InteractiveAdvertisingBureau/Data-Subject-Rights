@@ -1,8 +1,7 @@
 
 <h1>Data Deletion Request Framework</h1>
 
-<h3>Public Comment closes on April 22, 2024.
-Email support@iabtechlab.com to submit comments.</h3>
+
 
 <h2>Introduction</h2>
 <p>The ‘Right to Delete’ is a Data Subject Right (DSR) included as part of the GDPR, US state privacy laws, and additional privacy legislation such as Quebec Law 25.&nbsp;</p>
@@ -447,7 +446,7 @@ Email support@iabtechlab.com to submit comments.</h3>
         "identifierValue": "28f6dc889e...fe167",
         "identifierType": "email",
         "identifierFormat": "sha256"
-    } 
+    },
     "iat": 1693459424,
     "optionalParameters": {optional_paramters_information}
 }
